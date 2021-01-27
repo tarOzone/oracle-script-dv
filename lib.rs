@@ -30,14 +30,3 @@ fn execute_impl(input: Input) -> Output {
 
 prepare_entry_point!(prepare_impl);
 execute_entry_point!(execute_impl);
-
-// bandcli tx oracle create-oracle-script \
-// --name test-dv-oracle-2 \
-// --description "Test DV oracle #2" \
-// --script band_wasm_bg.wasm \
-// --schema "{symbol:string,multiplier:u64}/{price:u64,sources:[{name:string,time:u64}]}" \
-// --owner band1w8mmcw6y6gsptyae6zwl67t3cccxvnnwlmfkdj \
-// --from band1wktqrckx4yx55wauf9x3n4z72rlhcvymztnxvl \
-// --chain-id band-guanyu-testnet3 \
-// --fees 60000uband --gas 600000
-// --url 
